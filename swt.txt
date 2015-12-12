@@ -1,0 +1,13 @@
+My first thoughts on the data:
+
+Variable selection:
+
+there are a lot of (linearly) dependent variables in our dataset
+	=> 	That means that we need to select variables to prevent issues
+		with multicollinearity
+
+there are a few variables that have an extremely large % missing
+	=>	We should leave those out of the model
+
+There a few variables that have a small % missing:
+	=>	
