@@ -11,4 +11,4 @@ Select all text in that file and delete it.
 copy paste the updated script into that file and save it. 
 DO NOT CHANGE THE NAME OF THE FILE. That might cause scripts to stop working if they refer to each other.
 Congratulations, you have now updated your scripts! Did you know you can
-use Git so you don't need to manually compare and copy-paste? It's never too late ;)
+use Git to update your files so you don't need to manually compare and copy-paste? It's never too late ;)
