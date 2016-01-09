@@ -1,0 +1,11 @@
+
+## string parsing pseudo-code
+## my end goal is to have a comma-seperated list of strings
+
+
+function(sentence)
+	for letter in sentence:
+	if length(sentence) == 0;
+		stop
+	else:
+		if letter == ,; 	

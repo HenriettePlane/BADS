@@ -16,5 +16,6 @@
 # corm2 <- cor(test2, use= 'pairwise.complete.obs', method='spearman')
 
 
-corm3 <- cor(ldNum, use= 'pairwise.complete.obs', method='spearman')
+# corm3 <- cor(ldNum, use= 'pairwise.complete.obs', method='spearman')
+
 

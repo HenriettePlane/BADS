@@ -1,13 +1,43 @@
 My first thoughts on the data:
 
-Variable selection:
 
-there are a lot of (linearly) dependent variables in our dataset
+There are 58 columns more in the dataset than in the description 
+	=> 115 as opposed to 173. 
+
+
+There are a lot of (linearly) dependent variables in our dataset
 	=> 	That means that we need to select variables to prevent issues
 		with multicollinearity
+	=> some variables are calculated from other columns, these should definetly be left out
 
-there are a few variables that have an extremely large % missing
+There are a few variables that have an extremely large % missing
 	=>	We should leave those out of the model
 
+To select variables easily and intelligently, we should write a few string
+parsing functions. Python is better suited for this than R.
+
+Besides data-prepping, we should write scripts for each type of data processing to repeat the estimation 20 times. 
+
+
 There a few variables that have a small % missing:
-	=>	
+	=>	Leave out observations
+
+
+
+To do: 
+	=> redo all tutorials
+	=> write scripts with functions that can be used on a variety of dataframes
+	=> Look at our dataset
+	=> select variables
+	=> write parser in Python to select variables
+	or:
+		 => select just a few variables (say, ten or so)
+	=> remove missing observations (not a lot of work)
+	=> apply scripts
+	=> pass swt
+
+Plan:
+update group that I won't be able to get much done
+That it will be a lot of work
+That we should get together and work on it
+
